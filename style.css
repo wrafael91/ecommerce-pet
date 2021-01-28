@@ -84,6 +84,7 @@ body {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   font-size: 1rem;
+  font-weight: 800;
   background: var(--primaryColor);
   color: var(--mainBlack);
   border: 1px solid var(--primaryColor);
@@ -91,8 +92,9 @@ body {
   cursor: pointer;
 }
 .banner-btn:hover {
-  background: transparent;
+  background: #000;
   color: var(--primaryColor);
+  font-weight: 800;
 }
 /* --------------- End of Hero ---------------- */
 /* --------------- Products ---------------- */
@@ -135,7 +137,8 @@ body {
   cursor: pointer;
 }
 .bag-btn:hover {
-  color: var(--mainWhite);
+  background: #000;
+  color: var(--primaryColor);
 }
 .fa-shopping-cart {
   margin-right: 0.5rem;
